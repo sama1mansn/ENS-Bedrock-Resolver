@@ -13,7 +13,7 @@
         "const-name-snakecase": "off",
         "func-name-mixedcase": "off",
         "constructor-syntax": "error",
-        "func-visibility": ["error", { "ignoreConstructors": true }],
+        "func-visibility": ["error", { "ignoreConstructors":false }],
         "not-rely-on-time": "off",
         "reason-string": ["warn", { "maxLength": 64 }]
     }
